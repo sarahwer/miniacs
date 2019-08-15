@@ -1,0 +1,8 @@
+#!/bin/sh
+cd /home/sagem/Desktop/acs_TI
+./interface
+sleep 10
+cat    /home/sagem/Desktop/acs_TI/DIVERS/bellcanada/Messages_10.64.2.*.log    >    /home/sagem/Desktop/acs_TI/DIVERS/bellcanada/log.txt
+sleep 10
+grep    -A 2 -i    "REQUESTED PARAMETER VALUES:" /home/sagem/Desktop/acs_TI/DIVERS/bellcanada/log.txt    >    /home/sagem/Desktop/acs_TI/DIVERS/bellcanada/GetResult.txt
+sleep 5

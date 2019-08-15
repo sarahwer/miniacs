@@ -1,0 +1,19 @@
+serverIPAddress		   = 10.64.16.14                {Server IP address}
+STUNserver		   = disabled                     {STUN server enabling. Possible values: disabled, enabled}
+httpAuthentication         = none                         {Authentication enabling. Possible values: none, basic, digest}
+httpSSL                    = disabled                     {SSL enabling. Possible values: disabled, enabled}
+authenticationFile         = none                         {name of the authentication file}
+sslCertificateFile         = none                         {name of the certification file}
+sslPrivateKeyFile          = none                         {name of the private key file}
+profilePathDirectory       = ./ProvisionningM1	         {name of the Directory's path of vendor}
+typeofTest                 = TEST003	          {type of Test to do}
+schemaFile                 = ./schema/wt121_v7.xsd       {name of the schema file}
+firmwarePathDirectory      = none                        {name of the Directory's path of Firmware}
+firmwareName               = none 		  	 {name of the Firmware's file}
+httpDownloadAuthentication = none			 {Download Authentication enabling. Possible values: none, basic, digest}
+httpDownloadSSL            = disabled                    {Download SSL enabling. Possible values: disabled, enabled}
+downloadUsername           = none                       {HTTP Download's Username Authentication;if no Authentication: "none"}
+downloadPassword           = none                       {HTTP Download's Password Authentication;if no Authentication: "none"}
+pingDiagnosticInterface    = none                       {WAN or LAN IP-layer interface over which the test is to be performed}
+pingDiagnosticHost         = none                       {Host's name or address's host to ping}
+

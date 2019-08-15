@@ -1,0 +1,3 @@
+#! /bin/sh
+cat /home/sagem/Desktop/acs_TI/DIVERS/bellcanada/Messages_100.64.5.*.log > /home/sagem/Desktop/acs_TI/DIVERS/bellcanada/log.txt
+

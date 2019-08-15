@@ -1,0 +1,3 @@
+ echo | grep  -A 2 -i  "Device.WiFi.SSID.10101.SSID" /home/sagem/Desktop/acs_TI/DIVERS/bellcanada/Messages_10.64.104.224.log > /home/sagem/Desktop/acs_TI/DIVERS/bellcanada/verifresult.txt
+cat /home/sagem/Desktop/acs_TI/DIVERS/bellcanada/verifresult.txt
+

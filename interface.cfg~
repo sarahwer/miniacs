@@ -1,0 +1,10 @@
+AcsIP		= 10.64.16.220	{ACS simulator's IP address}
+PROTOCOL	= TCP			{Protocol type to use. Possible value: TCP,UDP}
+DevicePORT	= 51005			{ConnectionRequest's PORT of the Device}
+DeviceUSR	= none			{ConnectionRequest's USERNAME Authentication;if no Authentication write: "none"}
+DevicePSW	= none			{ConnectionRequest's PASSWORD Authentication;if no Authentication write: "none"}
+
+
+
+DevicePATH = /9YToLe0ePtdhxwhJ {ConnectionRequest's PATH of the Device;if no PATH: "none"}
+DeviceIP = 10.64.104.224 {ConnectionRequest's IP address of the Device}

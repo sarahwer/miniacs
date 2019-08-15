@@ -1,0 +1,28 @@
+<SOAP-ENV:Envelope
+	xmlns:cwmp="urn:dslforum-org:cwmp-1-0"
+	xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"
+	xsi:type="SOAP-ENV:Envelope">
+	<SOAP-ENV:Header>
+		<cwmp:ID SOAP-ENV:mustUnderstand="1"></cwmp:ID>
+	</SOAP-ENV:Header>
+	<SOAP-ENV:Body>
+		<cwmp:SetParameterValues>
+			<ParameterList SOAP-ENC:arrayType="cwmp:ParameterValueStruct[2]">
+                                <ParameterValueStruct>
+                                        <Name>InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.Username</Name>
+                                         <Value>xxxx</Value>
+                                </ParameterValueStruct>
+                            
+					
+				                <ParameterValueStruct>
+				                        			<Name>InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.Password</Name>
+				                         <Value>yyyy</Value>
+				                </ParameterValueStruct>
+				               </ParameterList>
+					<ParameterKey>500000132</ParameterKey>
+				</cwmp:SetParameterValues>
+	</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

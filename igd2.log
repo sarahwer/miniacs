@@ -1,0 +1,888 @@
+./tes# ./testIf GET InternetGatewayDevice.
+out0 0 --> parameter = InternetGatewayDevice.ManagementServer.URL | value = http://10.64.16.14:9034/TR069ACS
+--> parameter = InternetGatewayDevice.ManagementServer.Username | value = TIadmin
+--> parameter = InternetGatewayDevice.ManagementServer.Password | value = TIadmin
+--> parameter = InternetGatewayDevice.ManagementServer.PeriodicInformEnable | value = 1
+--> parameter = InternetGatewayDevice.ManagementServer.PeriodicInformInterval | value = 120
+--> parameter = InternetGatewayDevice.ManagementServer.ParameterKey | value = 500000132
+--> parameter = InternetGatewayDevice.ManagementServer.ConnectionRequestURL | value = http://10.64.2.207:7170/ConnectionRequest
+--> parameter = InternetGatewayDevice.ManagementServer.ConnectionRequestUsername | value = admin
+--> parameter = InternetGatewayDevice.ManagementServer.ConnectionRequestPassword | value = admin
+--> parameter = InternetGatewayDevice.ManagementServer.PeriodicInformTime | value = 1970-01-01T00:02:00Z
+--> parameter = InternetGatewayDevice.ManagementServer.ManageableDeviceNumberOfEntries | value = 0
+--> parameter = InternetGatewayDevice.ManagementServer.ManageableDeviceNotificationLimit | value = 0
+--> parameter = InternetGatewayDevice.ManagementServer.UpgradesManaged | value = 0
+--> parameter = InternetGatewayDevice.ManagementServer.X_TELECOMITALIA_IT_ServiceRealm | value = alicebiz.mgmt
+--> parameter = InternetGatewayDevice.ManagementServer.X_TELECOMITALIA_IT_ManagementConnection | value = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.
+--> parameter = InternetGatewayDevice.ManagementServer.KickURL | value = 
+--> parameter = InternetGatewayDevice.QueueManagement.Enable | value = 1
+--> parameter = InternetGatewayDevice.QueueManagement.MaxQueues | value = 8
+--> parameter = InternetGatewayDevice.QueueManagement.MaxClassificationEntries | value = 4
+--> parameter = InternetGatewayDevice.QueueManagement.ClassificationNumberOfEntries | value = 3
+--> parameter = InternetGatewayDevice.QueueManagement.MaxQueueEntries | value = 4
+--> parameter = InternetGatewayDevice.QueueManagement.QueueNumberOfEntries | value = 3
+--> parameter = InternetGatewayDevice.QueueManagement.DefaultQueue | value = 1
+--> parameter = InternetGatewayDevice.QueueManagement.DefaultDSCPMark | value = 0
+--> parameter = InternetGatewayDevice.QueueManagement.Classification.3.ClassificationKey | value = 3
+--> parameter = InternetGatewayDevice.QueueManagement.Classification.3.ClassificationEnable | value = 1
+--> parameter = InternetGatewayDevice.QueueManagement.Classification.3.ClassificationStatus | value = Enabled
+--> parameter = InternetGatewayDevice.QueueManagement.Classification.3.ClassificationOrder | value = 3
+--> parameter = InternetGatewayDevice.QueueManagement.Classification.3.DestIP | value = 
+--> parameter = InternetGatewayDevice.QueueManagement.Classification.3.DestMask | value = 
+--> parameter = InternetGatewayDevice.QueueManagement.Classification.3.DestIPExclude | value = 0
+--> parameter = InternetGatewayDevice.QueueManagement.Classification.3.SourceIP | value = 
+--> parameter = InternetGatewayDevice.QueueManagement.Classification.3.SourceMask | value = 
+--> parameter = InternetGatewayDevice.QueueManagement.Classification.3.SourceIPExclude | value = 0
+--> parameter = InternetGatewayDevice.QueueManagement.Classification.3.Protocol | value = -1
+--> parameter = InternetGatewayDevice.QueueManagement.Classification.3.ProtocolExclude | value = 0
+--> parameter = InternetGatewayDevice.QueueManagement.Classification.3.DestPort | value = -1
+--> parameter = InternetGatewayDevice.QueueManagement.Classification.3.DestPortRangeMax | value = -1
+--> parameter = InternetGatewayDevice.QueueManagement.Classification.3.DestPortExclude | value = 0
+--> parameter = InternetGatewayDevice.QueueManagement.Classification.3.SourcePort | value = -1
+--> parameter = InternetGatewayDevice.QueueManagement.Classification.3.SourcePortRangeMax | value = -1
+--> parameter = InternetGatewayDevice.QueueManagement.Classification.3.SourcePortExclude | value = 0
+--> parameter = InternetGatewayDevice.QueueManagement.Classification.3.DSCPCheck | value = 8
+--> parameter = InternetGatewayDevice.QueueManagement.Classification.3.DSCPExclude | value = 0
+--> parameter = InternetGatewayDevice.QueueManagement.Classification.3.DSCPMark | value = -1
+--> parameter = InternetGatewayDevice.QueueManagement.Classification.3.EthernetPriorityCheck | value = -1
+--> parameter = InternetGatewayDevice.QueueManagement.Classification.3.EthernetPriorityExclude | value = 0
+--> parameter = InternetGatewayDevice.QueueManagement.Classification.3.EthernetPriorityMark | value = -1
+--> parameter = InternetGatewayDevice.QueueManagement.Classification.3.VLANIDCheck | value = -1
+--> parameter = InternetGatewayDevice.QueueManagement.Classification.3.VLANIDExclude | value = 0
+--> parameter = InternetGatewayDevice.QueueManagement.Classification.3.ClassQueue | value = 1
+--> parameter = InternetGatewayDevice.QueueManagement.Classification.2.ClassificationKey | value = 2
+--> parameter = InternetGatewayDevice.QueueManagement.Classification.2.ClassificationEnable | value = 1
+--> parameter = InternetGatewayDevice.QueueManagement.Classification.2.ClassificationStatus | value = Enabled
+--> parameter = InternetGatewayDevice.QueueManagement.Classification.2.ClassificationOrder | value = 2
+--> parameter = InternetGatewayDevice.QueueManagement.Classification.2.DestIP | value = 
+--> parameter = InternetGatewayDevice.QueueManagement.Classification.2.DestMask | value = 
+--> parameter = InternetGatewayDevice.QueueManagement.Classification.2.DestIPExclude | value = 0
+--> parameter = InternetGatewayDevice.QueueManagement.Classification.2.SourceIP | value = 
+--> parameter = InternetGatewayDevice.QueueManagement.Classification.2.SourceMask | value = 
+--> parameter = InternetGatewayDevice.QueueManagement.Classification.2.SourceIPExclude | value = 0
+--> parameter = InternetGatewayDevice.QueueManagement.Classification.2.Protocol | value = -1
+--> parameter = InternetGatewayDevice.QueueManagement.Classification.2.ProtocolExclude | value = 0
+--> parameter = InternetGatewayDevice.QueueManagement.Classification.2.DestPort | value = -1
+--> parameter = InternetGatewayDevice.QueueManagement.Classification.2.DestPortRangeMax | value = -1
+--> parameter = InternetGatewayDevice.QueueManagement.Classification.2.DestPortExclude | value = 0
+--> parameter = InternetGatewayDevice.QueueManagement.Classification.2.SourcePort | value = -1
+--> parameter = InternetGatewayDevice.QueueManagement.Classification.2.SourcePortRangeMax | value = -1
+--> parameter = InternetGatewayDevice.QueueManagement.Classification.2.SourcePortExclude | value = 0
+--> parameter = InternetGatewayDevice.QueueManagement.Classification.2.DSCPCheck | value = 24
+--> parameter = InternetGatewayDevice.QueueManagement.Classification.2.DSCPExclude | value = 0
+--> parameter = InternetGatewayDevice.QueueManagement.Classification.2.DSCPMark | value = -1
+--> parameter = InternetGatewayDevice.QueueManagement.Classification.2.EthernetPriorityCheck | value = -1
+--> parameter = InternetGatewayDevice.QueueManagement.Classification.2.EthernetPriorityExclude | value = 0
+--> parameter = InternetGatewayDevice.QueueManagement.Classification.2.EthernetPriorityMark | value = -1
+--> parameter = InternetGatewayDevice.QueueManagement.Classification.2.VLANIDCheck | value = -1
+--> parameter = InternetGatewayDevice.QueueManagement.Classification.2.VLANIDExclude | value = 0
+--> parameter = InternetGatewayDevice.QueueManagement.Classification.2.ClassQueue | value = 2
+--> parameter = InternetGatewayDevice.QueueManagement.Classification.1.ClassificationKey | value = 1
+--> parameter = InternetGatewayDevice.QueueManagement.Classification.1.ClassificationEnable | value = 1
+--> parameter = InternetGatewayDevice.QueueManagement.Classification.1.ClassificationStatus | value = Enabled
+--> parameter = InternetGatewayDevice.QueueManagement.Classification.1.ClassificationOrder | value = 1
+--> parameter = InternetGatewayDevice.QueueManagement.Classification.1.DestIP | value = 
+--> parameter = InternetGatewayDevice.QueueManagement.Classification.1.DestMask | value = 
+--> parameter = InternetGatewayDevice.QueueManagement.Classification.1.DestIPExclude | value = 0
+--> parameter = InternetGatewayDevice.QueueManagement.Classification.1.SourceIP | value = 
+--> parameter = InternetGatewayDevice.QueueManagement.Classification.1.SourceMask | value = 
+--> parameter = InternetGatewayDevice.QueueManagement.Classification.1.SourceIPExclude | value = 0
+--> parameter = InternetGatewayDevice.QueueManagement.Classification.1.Protocol | value = -1
+--> parameter = InternetGatewayDevice.QueueManagement.Classification.1.ProtocolExclude | value = 0
+--> parameter = InternetGatewayDevice.QueueManagement.Classification.1.DestPort | value = -1
+--> parameter = InternetGatewayDevice.QueueManagement.Classification.1.DestPortRangeMax | value = -1
+--> parameter = InternetGatewayDevice.QueueManagement.Classification.1.DestPortExclude | value = 0
+--> parameter = InternetGatewayDevice.QueueManagement.Classification.1.SourcePort | value = -1
+--> parameter = InternetGatewayDevice.QueueManagement.Classification.1.SourcePortRangeMax | value = -1
+--> parameter = InternetGatewayDevice.QueueManagement.Classification.1.SourcePortExclude | value = 0
+--> parameter = InternetGatewayDevice.QueueManagement.Classification.1.DSCPCheck | value = 40
+--> parameter = InternetGatewayDevice.QueueManagement.Classification.1.DSCPExclude | value = 0
+--> parameter = InternetGatewayDevice.QueueManagement.Classification.1.DSCPMark | value = -1
+--> parameter = InternetGatewayDevice.QueueManagement.Classification.1.EthernetPriorityCheck | value = -1
+--> parameter = InternetGatewayDevice.QueueManagement.Classification.1.EthernetPriorityExclude | value = 0
+--> parameter = InternetGatewayDevice.QueueManagement.Classification.1.EthernetPriorityMark | value = -1
+--> parameter = InternetGatewayDevice.QueueManagement.Classification.1.VLANIDCheck | value = -1
+--> parameter = InternetGatewayDevice.QueueManagement.Classification.1.VLANIDExclude | value = 0
+--> parameter = InternetGatewayDevice.QueueManagement.Classification.1.ClassQueue | value = 3
+--> parameter = InternetGatewayDevice.QueueManagement.Queue.3.QueueKey | value = 3
+--> parameter = InternetGatewayDevice.QueueManagement.Queue.3.QueueEnable | value = 1
+--> parameter = InternetGatewayDevice.QueueManagement.Queue.3.QueueStatus | value = Enabled
+--> parameter = InternetGatewayDevice.QueueManagement.Queue.3.QueueInterface | value = WAN
+--> parameter = InternetGatewayDevice.QueueManagement.Queue.3.QueuePrecedence | value = 1
+--> parameter = InternetGatewayDevice.QueueManagement.Queue.2.QueueKey | value = 2
+--> parameter = InternetGatewayDevice.QueueManagement.Queue.2.QueueEnable | value = 1
+--> parameter = InternetGatewayDevice.QueueManagement.Queue.2.QueueStatus | value = Enabled
+--> parameter = InternetGatewayDevice.QueueManagement.Queue.2.QueueInterface | value = WAN
+--> parameter = InternetGatewayDevice.QueueManagement.Queue.2.QueuePrecedence | value = 3
+--> parameter = InternetGatewayDevice.QueueManagement.Queue.1.QueueKey | value = 1
+--> parameter = InternetGatewayDevice.QueueManagement.Queue.1.QueueEnable | value = 1
+--> parameter = InternetGatewayDevice.QueueManagement.Queue.1.QueueStatus | value = Enabled
+--> parameter = InternetGatewayDevice.QueueManagement.Queue.1.QueueInterface | value = WAN
+--> parameter = InternetGatewayDevice.QueueManagement.Queue.1.QueuePrecedence | value = 5
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfileNumberOfEntries | value = 1
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.Capabilities.Codecs.3.EntryID | value = 3
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.Capabilities.Codecs.3.Codec | value = G.729
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.Capabilities.Codecs.3.PacketizationPeriod | value = 10,20,30
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.Capabilities.Codecs.3.SilenceSuppression | value = 0
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.Capabilities.Codecs.2.EntryID | value = 2
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.Capabilities.Codecs.2.Codec | value = G.711ALaw
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.Capabilities.Codecs.2.PacketizationPeriod | value = 10,20,30
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.Capabilities.Codecs.2.SilenceSuppression | value = 0
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.Capabilities.Codecs.1.EntryID | value = 1
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.Capabilities.Codecs.1.Codec | value = G.729a
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.Capabilities.Codecs.1.PacketizationPeriod | value = 10,20,30
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.Capabilities.Codecs.1.SilenceSuppression | value = 0
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Enable | value = Enabled
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.NumberOfLines | value = 2
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.DTMFMethod | value = RFC2833
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Reset | value = 0
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Name | value = Telecomitalia
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.MaxSessions | value = 10
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.SIP.UserAgentDomain | value = 10.64.34.14
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.SIP.UserAgentPort | value = 5060
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.SIP.UserAgentTransport | value = UDP
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.SIP.OutboundProxy | value = 10.64.34.14
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.SIP.OutboundProxyPort | value = 5060
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.SIP.RegistrationPeriod | value = 3600
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.SIP.UseCodecPriorityInSDPResponse | value = 1
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.SIP.DSCPMark | value = 40
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.SIP.VLANIDMark | value = -1
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.SIP.EthernetPriorityMark | value = -1
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.SIP.X_TELECOMITALIA_IT_AuthRealm | value = digest.telecomitalia.it
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.RTP.DSCPMark | value = 40
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.RTP.TelephoneEventPayloadType | value = 97
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.RTP.VLANIDMark | value = -1
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.RTP.RTCP.Enable | value = 1
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.RTP.RTCP.TxRepeatInterval | value = 5000
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.RTP.EthernetPriorityMark | value = -1
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.X_TELECOMITALIA_IT_LineLog.NumberOfFirstCalls | value = 0
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.X_TELECOMITALIA_IT_LineLog.MaxNumberOfFirstCall | value = 20
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.X_TELECOMITALIA_IT_LineLog.ClearLog | value = 0
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.2.Enable | value = Enabled
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.2.DirectoryNumber | value = 06664852521
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.2.Status | value = Up
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.2.CallState | value = Idle
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.2.PhyReferenceList | value = Porta_Line2
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.2.X_TELECOMITALIA_IT_AssocTime | value = 2010-05-04T11:23:46Z
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.2.X_TELECOMITALIA_IT_POSConfig | value = 0
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.2.SIP.AuthUserName | value = 06664852521
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.2.SIP.AuthPassword | value = sagem
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.2.Codec.List.3.EntryID | value = 3
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.2.Codec.List.3.Codec | value = G.729
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.2.Codec.List.3.PacketizationPeriod | value = 20
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.2.Codec.List.3.SilenceSuppression | value = 0
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.2.Codec.List.3.Enable | value = 1
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.2.Codec.List.3.Priority | value = 3
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.2.Codec.List.2.EntryID | value = 2
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.2.Codec.List.2.Codec | value = G.711ALaw
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.2.Codec.List.2.PacketizationPeriod | value = 20
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.2.Codec.List.2.SilenceSuppression | value = 0
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.2.Codec.List.2.Enable | value = 1
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.2.Codec.List.2.Priority | value = 2
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.2.Codec.List.1.EntryID | value = 1
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.2.Codec.List.1.Codec | value = G.729a
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.2.Codec.List.1.PacketizationPeriod | value = 20
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.2.Codec.List.1.SilenceSuppression | value = 0
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.2.Codec.List.1.Enable | value = 1
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.2.Codec.List.1.Priority | value = 1
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.2.Stats.ResetStatistics | value = 0
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.2.Stats.PacketsSent | value = 0
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.2.Stats.PacketsReceived | value = 0
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.2.Stats.BytesSent | value = 0
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.2.Stats.BytesReceived | value = 0
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.2.Stats.PacketsLost | value = 0
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.2.Stats.Overruns | value = 0
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.2.Stats.Underruns | value = 0
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.2.Stats.IncomingCallsReceived | value = 0
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.2.Stats.IncomingCallsAnswered | value = 0
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.2.Stats.IncomingCallsConnected | value = 0
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.2.Stats.IncomingCallsFailed | value = 0
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.2.Stats.OutgoingCallsAttempted | value = 0
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.2.Stats.OutgoingCallsAnswered | value = 0
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.2.Stats.OutgoingCallsConnected | value = 0
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.2.Stats.OutgoingCallsFailed | value = 0
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.2.Stats.ReceivePacketLossRate | value = 0
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.2.Stats.FarEndPacketLossRate | value = 0
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.2.Stats.ReceiveInterarrivalJitter | value = 0
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.2.Stats.FarEndInterarrivalJitter | value = 0
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.2.Stats.RoundTripDelay | value = 0
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.2.Stats.AverageReceiveInterarrivalJitter | value = 0
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.2.VoiceProcessing.TransmitGain | value = 0
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.2.VoiceProcessing.ReceiveGain | value = 0
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Enable | value = Enabled
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.DirectoryNumber | value = 
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Status | value = Disabled
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.CallState | value = Unavailable
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.PhyReferenceList | value = 
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.X_TELECOMITALIA_IT_AssocTime | value = 1970-01-01T00:00:00Z
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.X_TELECOMITALIA_IT_POSConfig | value = 0
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.SIP.AuthUserName | value = 
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.SIP.AuthPassword | value = 
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Codec.List.3.EntryID | value = 3
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Codec.List.3.Codec | value = G.729
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Codec.List.3.PacketizationPeriod | value = 20
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Codec.List.3.SilenceSuppression | value = 0
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Codec.List.3.Enable | value = 1
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Codec.List.3.Priority | value = 3
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Codec.List.2.EntryID | value = 2
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Codec.List.2.Codec | value = G.711ALaw
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Codec.List.2.PacketizationPeriod | value = 20
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Codec.List.2.SilenceSuppression | value = 0
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Codec.List.2.Enable | value = 1
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Codec.List.2.Priority | value = 2
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Codec.List.1.EntryID | value = 1
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Codec.List.1.Codec | value = G.729a
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Codec.List.1.PacketizationPeriod | value = 20
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Codec.List.1.SilenceSuppression | value = 0
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Codec.List.1.Enable | value = 1
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Codec.List.1.Priority | value = 1
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Stats.ResetStatistics | value = 0
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Stats.PacketsSent | value = 0
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Stats.PacketsReceived | value = 0
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Stats.BytesSent | value = 0
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Stats.BytesReceived | value = 0
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Stats.PacketsLost | value = 0
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Stats.Overruns | value = 0
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Stats.Underruns | value = 0
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Stats.IncomingCallsReceived | value = 0
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Stats.IncomingCallsAnswered | value = 0
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Stats.IncomingCallsConnected | value = 0
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Stats.IncomingCallsFailed | value = 0
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Stats.OutgoingCallsAttempted | value = 0
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Stats.OutgoingCallsAnswered | value = 0
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Stats.OutgoingCallsConnected | value = 0
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Stats.OutgoingCallsFailed | value = 0
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Stats.ReceivePacketLossRate | value = 0
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Stats.FarEndPacketLossRate | value = 0
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Stats.ReceiveInterarrivalJitter | value = 0
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Stats.FarEndInterarrivalJitter | value = 0
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Stats.RoundTripDelay | value = 0
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Stats.AverageReceiveInterarrivalJitter | value = 0
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.VoiceProcessing.TransmitGain | value = 0
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.VoiceProcessing.ReceiveGain | value = 0
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.PhyInterface.2.PhyPort | value = 2
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.PhyInterface.2.InterfaceID | value = 2
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.PhyInterface.2.Description | value = Porta_Line2
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.PhyInterface.2.X_TELECOMITALIA_IT_APTCPForceInit | value = 0
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.PhyInterface.2.Tests.TestState | value = None
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.PhyInterface.2.Tests.TestSelector | value = 
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.PhyInterface.2.Tests.PhoneConnectivity | value = 1
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.PhyInterface.2.Tests.X_TELECOMITALIA_IT_Vtip_DC | value = -1
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.PhyInterface.2.Tests.X_TELECOMITALIA_IT_Vring_DC | value = -2
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.PhyInterface.2.Tests.X_TELECOMITALIA_IT_Vloop_DC | value = 0
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.PhyInterface.2.Tests.X_TELECOMITALIA_IT_Vtip_AC | value = 0
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.PhyInterface.2.Tests.X_TELECOMITALIA_IT_Vring_AC | value = 0
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.PhyInterface.2.Tests.X_TELECOMITALIA_IT_Vloop_AC | value = 0
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.PhyInterface.2.Tests.X_TELECOMITALIA_IT_Rtip_gnd | value = 0
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.PhyInterface.2.Tests.X_TELECOMITALIA_IT_Rring_gnd | value = 0
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.PhyInterface.2.Tests.X_TELECOMITALIA_IT_Rloop | value = 0
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.PhyInterface.2.Tests.X_TELECOMITALIA_IT_OffHook | value = 0
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.PhyInterface.2.Tests.X_TELECOMITALIA_IT_REN | value = 0
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.PhyInterface.2.Tests.X_TELECOMITALIA_IT_PSTN | value = 0
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.PhyInterface.1.PhyPort | value = 1
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.PhyInterface.1.InterfaceID | value = 1
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.PhyInterface.1.Description | value = Porta_Line1
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.PhyInterface.1.X_TELECOMITALIA_IT_APTCPForceInit | value = 1
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.PhyInterface.1.Tests.TestState | value = None
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.PhyInterface.1.Tests.TestSelector | value = 
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.PhyInterface.1.Tests.PhoneConnectivity | value = 0
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.PhyInterface.1.Tests.X_TELECOMITALIA_IT_Vtip_DC | value = 0
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.PhyInterface.1.Tests.X_TELECOMITALIA_IT_Vring_DC | value = 0
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.PhyInterface.1.Tests.X_TELECOMITALIA_IT_Vloop_DC | value = 0
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.PhyInterface.1.Tests.X_TELECOMITALIA_IT_Vtip_AC | value = 0
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.PhyInterface.1.Tests.X_TELECOMITALIA_IT_Vring_AC | value = 0
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.PhyInterface.1.Tests.X_TELECOMITALIA_IT_Vloop_AC | value = 0
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.PhyInterface.1.Tests.X_TELECOMITALIA_IT_Rtip_gnd | value = 0
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.PhyInterface.1.Tests.X_TELECOMITALIA_IT_Rring_gnd | value = 0
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.PhyInterface.1.Tests.X_TELECOMITALIA_IT_Rloop | value = 0
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.PhyInterface.1.Tests.X_TELECOMITALIA_IT_OffHook | value = 0
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.PhyInterface.1.Tests.X_TELECOMITALIA_IT_REN | value = 0
+--> parameter = InternetGatewayDevice.Services.VoiceService.1.PhyInterface.1.Tests.X_TELECOMITALIA_IT_PSTN | value = 0
+--> parameter = InternetGatewayDevice.Services.VoiceServiceNumberOfEntries | value = 1
+--> parameter = InternetGatewayDevice.Services.X_TELECOMITALIA_IT_APTCP.ForceRenewal | value = 0
+--> parameter = InternetGatewayDevice.Services.X_TELECOMITALIA_IT_APTCP.AlgSIPEnable | value = 0
+--> parameter = InternetGatewayDevice.Services.X_TELECOMITALIA_IT_APTCP.UserAgentDomain | value = 10.64.34.14
+--> parameter = InternetGatewayDevice.Services.X_TELECOMITALIA_IT_APTCP.OutboundProxy | value = 10.64.34.14
+--> parameter = InternetGatewayDevice.Services.X_TELECOMITALIA_IT_APTCP.NumberOfLines | value = 5
+--> parameter = InternetGatewayDevice.Services.X_TELECOMITALIA_IT_APTCP.Line.5.DirectoryNumber | value = 066652525
+--> parameter = InternetGatewayDevice.Services.X_TELECOMITALIA_IT_APTCP.Line.5.Status | value = Not Assigned
+--> parameter = InternetGatewayDevice.Services.X_TELECOMITALIA_IT_APTCP.Line.5.HostMACAddress | value = 
+--> parameter = InternetGatewayDevice.Services.X_TELECOMITALIA_IT_APTCP.Line.5.SIPKey | value = sagem
+--> parameter = InternetGatewayDevice.Services.X_TELECOMITALIA_IT_APTCP.Line.4.DirectoryNumber | value = 066652524
+--> parameter = InternetGatewayDevice.Services.X_TELECOMITALIA_IT_APTCP.Line.4.Status | value = Not Assigned
+--> parameter = InternetGatewayDevice.Services.X_TELECOMITALIA_IT_APTCP.Line.4.HostMACAddress | value = 
+--> parameter = InternetGatewayDevice.Services.X_TELECOMITALIA_IT_APTCP.Line.4.SIPKey | value = sagem
+--> parameter = InternetGatewayDevice.Services.X_TELECOMITALIA_IT_APTCP.Line.3.DirectoryNumber | value = 06664852523
+--> parameter = InternetGatewayDevice.Services.X_TELECOMITALIA_IT_APTCP.Line.3.Status | value = Not Assigned
+--> parameter = InternetGatewayDevice.Services.X_TELECOMITALIA_IT_APTCP.Line.3.HostMACAddress | value = 
+--> parameter = InternetGatewayDevice.Services.X_TELECOMITALIA_IT_APTCP.Line.3.SIPKey | value = sagem
+--> parameter = InternetGatewayDevice.Services.X_TELECOMITALIA_IT_APTCP.Line.2.DirectoryNumber | value = 06664852522
+--> parameter = InternetGatewayDevice.Services.X_TELECOMITALIA_IT_APTCP.Line.2.Status | value = Not Assigned
+--> parameter = InternetGatewayDevice.Services.X_TELECOMITALIA_IT_APTCP.Line.2.HostMACAddress | value = 
+--> parameter = InternetGatewayDevice.Services.X_TELECOMITALIA_IT_APTCP.Line.2.SIPKey | value = sagem
+--> parameter = InternetGatewayDevice.Services.X_TELECOMITALIA_IT_APTCP.Line.1.DirectoryNumber | value = 06664852521
+--> parameter = InternetGatewayDevice.Services.X_TELECOMITALIA_IT_APTCP.Line.1.Status | value = Assigned
+--> parameter = InternetGatewayDevice.Services.X_TELECOMITALIA_IT_APTCP.Line.1.HostMACAddress | value = 
+--> parameter = InternetGatewayDevice.Services.X_TELECOMITALIA_IT_APTCP.Line.1.SIPKey | value = sagem
+--> parameter = InternetGatewayDevice.DeviceSummary | value = X_TELECOMITALIA_IT_AGIADFSM1:1
+--> parameter = InternetGatewayDevice.LANDeviceNumberOfEntries | value = 1
+--> parameter = InternetGatewayDevice.WANDeviceNumberOfEntries | value = 1
+--> parameter = InternetGatewayDevice.Time.NTPServer1 | value = ntp-tr069-1.interbusiness.it
+--> parameter = InternetGatewayDevice.Time.NTPServer2 | value = ntp-tr069-2.interbusiness.it
+--> parameter = InternetGatewayDevice.Time.NTPServer3 | value = 
+--> parameter = InternetGatewayDevice.Time.NTPServer4 | value = 
+--> parameter = InternetGatewayDevice.Time.NTPServer5 | value = 
+--> parameter = InternetGatewayDevice.Time.CurrentLocalTime | value = 2010-05-04T12:04:28Z
+--> parameter = InternetGatewayDevice.Time.LocalTimeZone | value = +01:00
+--> parameter = InternetGatewayDevice.Time.DaylightSavingsUsed | value = 0
+--> parameter = InternetGatewayDevice.Time.DaylightSavingsStart | value = 2010-03-28T00:00:00Z
+--> parameter = InternetGatewayDevice.Time.DaylightSavingsEnd | value = 2010-10-28T01:00:00Z
+--> parameter = InternetGatewayDevice.Time.LocalTimeZoneName | value = GMT+1
+--> parameter = InternetGatewayDevice.DeviceInfo.ProductClass | value = Alice Gate
+--> parameter = InternetGatewayDevice.DeviceInfo.Manufacturer | value = Sagem
+--> parameter = InternetGatewayDevice.DeviceInfo.ManufacturerOUI | value = 00194B
+--> parameter = InternetGatewayDevice.DeviceInfo.ModelName | value = AGTI2007
+--> parameter = InternetGatewayDevice.DeviceInfo.Description | value = TIA2007
+--> parameter = InternetGatewayDevice.DeviceInfo.SerialNumber | value = LK09149DP290019
+--> parameter = InternetGatewayDevice.DeviceInfo.HardwareVersion | value = 2.0.1
+--> parameter = InternetGatewayDevice.DeviceInfo.SoftwareVersion | value = AGSF_2.0.22_030
+--> parameter = InternetGatewayDevice.DeviceInfo.SpecVersion | value = 2.0
+--> parameter = InternetGatewayDevice.DeviceInfo.ProvisioningCode | value = M01-20091001-163162110126-172.29.0.126
+--> parameter = InternetGatewayDevice.DeviceInfo.UpTime | value = 435
+--> parameter = InternetGatewayDevice.DeviceInfo.DeviceLog | value = 
+--> parameter = InternetGatewayDevice.DeviceInfo.X_TELECOMITALIA_IT_UPnP | value = 0
+--> parameter = InternetGatewayDevice.DeviceInfo.X_TELECOMITALIA_IT_BackHSPA | value = 0
+--> parameter = InternetGatewayDevice.Layer3Forwarding.DefaultConnectionService | value = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.
+--> parameter = InternetGatewayDevice.Layer3Forwarding.ForwardNumberOfEntries | value = 1
+--> parameter = InternetGatewayDevice.Layer3Forwarding.Forwarding.1.Enable | value = 1
+--> parameter = InternetGatewayDevice.Layer3Forwarding.Forwarding.1.Status | value = Enabled
+--> parameter = InternetGatewayDevice.Layer3Forwarding.Forwarding.1.Type | value = Host
+--> parameter = InternetGatewayDevice.Layer3Forwarding.Forwarding.1.DestIPAddress | value = 0.0.0.0
+--> parameter = InternetGatewayDevice.Layer3Forwarding.Forwarding.1.DestSubnetMask | value = 0.0.0.0
+--> parameter = InternetGatewayDevice.Layer3Forwarding.Forwarding.1.SourceIPAddress | value = 192.168.1.2
+--> parameter = InternetGatewayDevice.Layer3Forwarding.Forwarding.1.SourceSubnetMask | value = 255.255.255.255
+--> parameter = InternetGatewayDevice.Layer3Forwarding.Forwarding.1.GatewayIPAddress | value = 0.0.0.0
+--> parameter = InternetGatewayDevice.Layer3Forwarding.Forwarding.1.Interface | value = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.3
+--> parameter = InternetGatewayDevice.Layer3Forwarding.Forwarding.1.ForwardingMetric | value = 1
+--> parameter = InternetGatewayDevice.Layer3Forwarding.Forwarding.1.MTU | value = 1492
+--> parameter = InternetGatewayDevice.Layer3Forwarding.Forwarding.1.X_TELECOMITALIA_IT_StaticRoute | value = 0
+--> parameter = InternetGatewayDevice.Layer3Forwarding.Forwarding.1.X_TELECOMITALIA_IT_Persistance | value = 1
+--> parameter = InternetGatewayDevice.IPPingDiagnostics.DiagnosticsState | value = None
+--> parameter = InternetGatewayDevice.IPPingDiagnostics.Interface | value = 
+--> parameter = InternetGatewayDevice.IPPingDiagnostics.Host | value = 
+--> parameter = InternetGatewayDevice.IPPingDiagnostics.NumberOfRepetitions | value = 1
+--> parameter = InternetGatewayDevice.IPPingDiagnostics.Timeout | value = 1
+--> parameter = InternetGatewayDevice.IPPingDiagnostics.DataBlockSize | value = 1
+--> parameter = InternetGatewayDevice.IPPingDiagnostics.DSCP | value = 0
+--> parameter = InternetGatewayDevice.IPPingDiagnostics.SuccessCount | value = 0
+--> parameter = InternetGatewayDevice.IPPingDiagnostics.FailureCount | value = 0
+--> parameter = InternetGatewayDevice.IPPingDiagnostics.AverageResponseTime | value = 0
+--> parameter = InternetGatewayDevice.IPPingDiagnostics.MinimumResponseTime | value = 0
+--> parameter = InternetGatewayDevice.IPPingDiagnostics.MaximumResponseTime | value = 0
+--> parameter = InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceNumberOfEntries | value = 4
+--> parameter = InternetGatewayDevice.LANDevice.1.LANUSBInterfaceNumberOfEntries | value = 0
+--> parameter = InternetGatewayDevice.LANDevice.1.LANWLANConfigurationNumberOfEntries | value = 1
+--> parameter = InternetGatewayDevice.LANDevice.1.X_TELECOMITALIA_IT_IPTVService | value = Dyn_Portmapping
+--> parameter = InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.DHCPServerEnable | value = 1
+--> parameter = InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.MinAddress | value = 192.168.1.2
+--> parameter = InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.MaxAddress | value = 192.168.1.254
+--> parameter = InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.DHCPLeaseTime | value = 21600
+--> parameter = InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.SubnetMask | value = 255.255.255.0
+--> parameter = InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.DomainName | value = homenet.telecomitalia.it
+--> parameter = InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.DNSServers | value = 192.168.1.1
+--> parameter = InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.AllowedMACAddresses | value = 
+--> parameter = InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.IPRouters | value = 192.168.1.1
+--> parameter = InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.IPInterfaceNumberOfEntries | value = 2
+--> parameter = InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.IPInterface.2.Enable | value = 1
+--> parameter = InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.IPInterface.2.IPInterfaceIPAddress | value = 172.29.0.100
+--> parameter = InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.IPInterface.2.IPInterfaceSubnetMask | value = 255.255.255.240
+--> parameter = InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.IPInterface.2.IPInterfaceAddressingType | value = Static
+--> parameter = InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.IPInterface.1.Enable | value = 1
+--> parameter = InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.IPInterface.1.IPInterfaceIPAddress | value = 192.168.1.1
+--> parameter = InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.IPInterface.1.IPInterfaceSubnetMask | value = 255.255.255.0
+--> parameter = InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.IPInterface.1.IPInterfaceAddressingType | value = Static
+--> parameter = InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.DHCPServerConfigurable | value = 0
+--> parameter = InternetGatewayDevice.LANDevice.1.Hosts.HostNumberOfEntries | value = 1
+--> parameter = InternetGatewayDevice.LANDevice.1.Hosts.Host.1.IPAddress | value = 192.168.1.2
+--> parameter = InternetGatewayDevice.LANDevice.1.Hosts.Host.1.AddressSource | value = DHCP
+--> parameter = InternetGatewayDevice.LANDevice.1.Hosts.Host.1.LeaseTimeRemaining | value = 14398
+--> parameter = InternetGatewayDevice.LANDevice.1.Hosts.Host.1.MACAddress | value = 00:19:21:34:a6:51
+--> parameter = InternetGatewayDevice.LANDevice.1.Hosts.Host.1.HostName | value = Mariouma
+--> parameter = InternetGatewayDevice.LANDevice.1.Hosts.Host.1.Active | value = 1
+--> parameter = InternetGatewayDevice.LANDevice.1.Hosts.Host.1.InterfaceType | value = Ethernet
+--> parameter = InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.4.Stats.BytesSent | value = 0
+--> parameter = InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.4.Stats.BytesReceived | value = 0
+--> parameter = InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.4.Stats.PacketsSent | value = 0
+--> parameter = InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.4.Stats.PacketsReceived | value = 0
+--> parameter = InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.4.Stats.ErrorsReceived | value = 0
+--> parameter = InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.4.Stats.ErrorsSent | value = 0
+--> parameter = InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.4.Stats.DiscardPacketsSent | value = 0
+--> parameter = InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.4.Stats.DiscardPacketsReceived | value = 0
+--> parameter = InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.4.X_TELECOMITALIA_IT_STBInterface | value = 0
+--> parameter = InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.4.Enable | value = 1
+--> parameter = InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.4.Status | value = NoLink
+--> parameter = InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.4.MACAddress | value = 00:1b:bf:12:72:80
+--> parameter = InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.4.MaxBitRate | value = Auto
+--> parameter = InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.4.DuplexMode | value = Auto
+--> parameter = InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.3.Stats.BytesSent | value = 0
+--> parameter = InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.3.Stats.BytesReceived | value = 0
+--> parameter = InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.3.Stats.PacketsSent | value = 0
+--> parameter = InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.3.Stats.PacketsReceived | value = 0
+--> parameter = InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.3.Stats.ErrorsReceived | value = 0
+--> parameter = InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.3.Stats.ErrorsSent | value = 0
+--> parameter = InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.3.Stats.DiscardPacketsSent | value = 0
+--> parameter = InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.3.Stats.DiscardPacketsReceived | value = 0
+--> parameter = InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.3.X_TELECOMITALIA_IT_STBInterface | value = 0
+--> parameter = InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.3.Enable | value = 1
+--> parameter = InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.3.Status | value = NoLink
+--> parameter = InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.3.MACAddress | value = 00:1b:bf:12:72:80
+--> parameter = InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.3.MaxBitRate | value = Auto
+--> parameter = InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.3.DuplexMode | value = Auto
+--> parameter = InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.2.Stats.BytesSent | value = 0
+--> parameter = InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.2.Stats.BytesReceived | value = 0
+--> parameter = InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.2.Stats.PacketsSent | value = 0
+--> parameter = InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.2.Stats.PacketsReceived | value = 0
+--> parameter = InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.2.Stats.ErrorsReceived | value = 0
+--> parameter = InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.2.Stats.ErrorsSent | value = 0
+--> parameter = InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.2.Stats.DiscardPacketsSent | value = 0
+--> parameter = InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.2.Stats.DiscardPacketsReceived | value = 0
+--> parameter = InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.2.X_TELECOMITALIA_IT_STBInterface | value = 0
+--> parameter = InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.2.Enable | value = 1
+--> parameter = InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.2.Status | value = NoLink
+--> parameter = InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.2.MACAddress | value = 00:1b:bf:12:72:80
+--> parameter = InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.2.MaxBitRate | value = Auto
+--> parameter = InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.2.DuplexMode | value = Auto
+--> parameter = InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1.Stats.BytesSent | value = 0
+--> parameter = InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1.Stats.BytesReceived | value = 0
+--> parameter = InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1.Stats.PacketsSent | value = 125
+--> parameter = InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1.Stats.PacketsReceived | value = 237
+--> parameter = InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1.Stats.ErrorsReceived | value = 0
+--> parameter = InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1.Stats.ErrorsSent | value = 0
+--> parameter = InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1.Stats.DiscardPacketsSent | value = 0
+--> parameter = InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1.Stats.DiscardPacketsReceived | value = 0
+--> parameter = InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1.X_TELECOMITALIA_IT_STBInterface | value = 0
+--> parameter = InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1.Enable | value = 1
+--> parameter = InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1.Status | value = Up
+--> parameter = InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1.MACAddress | value = 00:1b:bf:12:72:80
+--> parameter = InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1.MaxBitRate | value = Auto
+--> parameter = InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1.DuplexMode | value = Auto
+--> parameter = InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.Enable | value = 1
+--> parameter = InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.BeaconAdvertisementEnabled | value = 1
+--> parameter = InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.Status | value = UP
+--> parameter = InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.BeaconType | value = WPA
+--> parameter = InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.BasicEncryptionModes | value = None
+--> parameter = InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.Channel | value = 0
+--> parameter = InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.Standard | value = g
+--> parameter = InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.WPAEncryptionModes | value = TKIPEncryption
+--> parameter = InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.IEEE11iEncryptionModes | value = TKIPEncryption
+--> parameter = InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.SSID | value = Alice-16173537
+--> parameter = InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.DeviceOperationMode | value = InfrastructureAccessPoint
+--> parameter = InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.BSSID | value = 00:21:86:EC:AA:E1
+--> parameter = InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.TotalBytesSent | value = 13586
+--> parameter = InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.TotalBytesReceived | value = 0
+--> parameter = InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.TotalPacketsSent | value = 112
+--> parameter = InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.TotalPacketsReceived | value = 0
+--> parameter = InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.ErrorsSent | value = 0
+--> parameter = InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.ErrorsReceived | value = 0
+--> parameter = InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.DiscardPacketsSent | value = 0
+--> parameter = InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.DiscardPacketsReceived | value = 0
+--> parameter = InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.OperationalDataTransmitRates | value = 1,2,5.5,11,6,9,12,18,24,36,48,54
+--> parameter = InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.BasicDataTransmitRates | value = 1,2,5.5,11,6,9,12,18,24,36,48,54
+--> parameter = InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.PossibleDataTransmitRates | value = 1,2,5.5,11,6,9,12,18,24,36,48,54
+--> parameter = InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.BasicAuthenticationMode | value = None
+--> parameter = InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.WPAAuthenticationMode | value = PSKAuthentication
+--> parameter = InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.KeyPassphrase | value = lfmbsje9n38uub9271tm2qqc
+--> parameter = InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.AutoRateFallBackEnabled | value = 1
+--> parameter = InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.X_TELECOMITALIA_IT_ChannelRefresh | value = 0
+--> parameter = InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.X_TELECOMITALIA_IT_MaximumRetries | value = 7
+--> parameter = InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.TotalAssociations | value = 0
+--> parameter = InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.WEPKeyIndex | value = 1
+--> parameter = InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.WEPEncryptionLevel | value = 40-bit,104-bit
+--> parameter = InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.PossibleChannels | value = 11
+--> parameter = InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.ChannelsInUse | value = 11
+--> parameter = InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.MACAddressControlEnabled | value = 0
+--> parameter = InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.WEPKey.4.WEPKey | value = 
+--> parameter = InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.WEPKey.3.WEPKey | value = 
+--> parameter = InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.WEPKey.2.WEPKey | value = 
+--> parameter = InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.WEPKey.1.WEPKey | value = 6c666d62736a65396e33387575
+--> parameter = InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.X_TELECOMITALIA_IT_AutoChannelSelectEnable | value = 1
+--> parameter = InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.X_TELECOMITALIA_IT_AutoChannelRefreshPeriod | value = 86400
+--> parameter = InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.X_TELECOMITALIA_IT_WCN | value = 1
+--> parameter = InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.WMMEnabled | value = 0
+--> parameter = InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.WMMSupported | value = 1
+--> parameter = InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.RadioEnabled | value = 1
+--> parameter = InternetGatewayDevice.WANDevice.1.WANCommonInterfaceConfig.EnabledForInternet | value = 1
+--> parameter = InternetGatewayDevice.WANDevice.1.WANCommonInterfaceConfig.WANAccessType | value = DSL
+--> parameter = InternetGatewayDevice.WANDevice.1.WANCommonInterfaceConfig.Layer1UpstreamMaxBitRate | value = 1025024
+--> parameter = InternetGatewayDevice.WANDevice.1.WANCommonInterfaceConfig.Layer1DownstreamMaxBitRate | value = 24147968
+--> parameter = InternetGatewayDevice.WANDevice.1.WANCommonInterfaceConfig.PhysicalLinkStatus | value = Up
+--> parameter = InternetGatewayDevice.WANDevice.1.WANCommonInterfaceConfig.TotalBytesSent | value = 0
+--> parameter = InternetGatewayDevice.WANDevice.1.WANCommonInterfaceConfig.TotalBytesReceived | value = 0
+--> parameter = InternetGatewayDevice.WANDevice.1.WANCommonInterfaceConfig.TotalPacketsSent | value = 0
+--> parameter = InternetGatewayDevice.WANDevice.1.WANCommonInterfaceConfig.TotalPacketsReceived | value = 0
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.2.WANIPConnection.1.Enable | value = 1
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.2.WANIPConnection.1.MaxMTUSize | value = 1500
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.2.WANIPConnection.1.ConnectionStatus | value = Connected
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.2.WANIPConnection.1.ConnectionTrigger | value = AlwaysOn
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.2.WANIPConnection.1.ConnectionType | value = IP_Bridged
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.2.WANIPConnection.1.Name | value = IPTV_8_36
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.2.WANIPConnection.1.NATEnabled | value = 0
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.2.WANIPConnection.1.AddressingType | value = DHCP
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.2.WANIPConnection.1.ExternalIPAddress | value = 0.0.0.0
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.2.WANIPConnection.1.SubnetMask | value = 0.0.0.0
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.2.WANIPConnection.1.DefaultGateway | value = 0.0.0.0
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.2.WANIPConnection.1.DNSOverrideAllowed | value = 1
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.2.WANIPConnection.1.DNSServers | value = 
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.2.WANIPConnection.1.X_TELECOMITALIA_IT_NATService | value = 
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.2.WANIPConnection.1.X_TELECOMITALIA_IT_NATPersistanceTime | value = 0
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.2.WANIPConnection.1.Stats.EthernetBytesSent | value = 0
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.2.WANIPConnection.1.Stats.EthernetBytesReceived | value = 0
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.2.WANIPConnection.1.Stats.EthernetPacketsSent | value = 0
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.2.WANIPConnection.1.Stats.EthernetPacketsReceived | value = 0
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.2.WANIPConnection.1.Stats.EthernetErrorsSent | value = 0
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.2.WANIPConnection.1.Stats.EthernetErrorsReceived | value = 0
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.2.WANIPConnection.1.Stats.EthernetDiscardPacketsSent | value = 0
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.2.WANIPConnection.1.Stats.EthernetDiscardPacketsReceived | value = 0
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.2.WANIPConnection.1.Stats.EthernetUnicastPacketsSent | value = 0
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.2.WANIPConnection.1.Stats.EthernetUnicastPacketsReceived | value = 0
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.2.WANIPConnection.1.Stats.EthernetMulticastPacketsSent | value = 0
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.2.WANIPConnection.1.Stats.EthernetMulticastPacketsReceived | value = 0
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.2.WANIPConnection.1.Stats.EthernetBroadcastPacketsSent | value = 0
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.2.WANIPConnection.1.Stats.EthernetBroadcastPacketsReceived | value = 0
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.2.WANIPConnection.1.Stats.EthernetUnknownProtoPacketsReceived | value = 0
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.2.WANIPConnection.1.IGMPForwardingEnable | value = 0
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.2.WANDSLLinkConfig.Enable | value = 1
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.2.WANDSLLinkConfig.LinkType | value = EoA
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.2.WANDSLLinkConfig.DestinationAddress | value = 8/36
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.2.WANDSLLinkConfig.ATMEncapsulation | value = LLC
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.2.WANDSLLinkConfig.ATMQoS | value = UBR
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.2.WANDSLLinkConfig.X_TELECOMITALIA_IT_LANIfMappingEnable | value = 1
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.2.WANDSLLinkConfig.ATMPeakCellRate | value = 5000
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.2.WANDSLLinkConfig.ATMMaximumBurstSize | value = 0
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.2.WANIPConnectionNumberOfEntries | value = 1
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.2.WANPPPConnectionNumberOfEntries | value = 0
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.3.Enable | value = 1
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.3.ConnectionStatus | value = Connected
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.3.ConnectionType | value = IP_Routed
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.3.Name | value = User Session
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.3.Uptime | value = 329
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.3.LastConnectionError | value = ERROR_NONE
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.3.NATEnabled | value = 1
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.3.Username | value = client2u@authsagem
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.3.Password | value = client2u
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.3.ExternalIPAddress | value = 10.64.2.223
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.3.MaxMRUSize | value = 1492
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.3.DNSOverrideAllowed | value = 1
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.3.DNSEnabled | value = 1
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.3.DNSServers | value = 151.99.125.1,151.99.0.100
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.3.ConnectionTrigger | value = AlwaysOn
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.3.IdleDisconnectTime | value = 0
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.3.PortMappingNumberOfEntries | value = 1
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.3.PortMapping.1.PortMappingEnabled | value = 1
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.3.PortMapping.1.PortMappingLeaseDuration | value = 0
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.3.PortMapping.1.RemoteHost | value = 
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.3.PortMapping.1.ExternalPort | value = TCP:2611-2612,6667;UDP:6500,27900
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.3.PortMapping.1.InternalPort | value = TCP:2611-2612,6667;UDP:6500,27900
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.3.PortMapping.1.PortMappingProtocol | value = ALL
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.3.PortMapping.1.InternalClient | value = 192.168.1.2
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.3.PortMapping.1.PortMappingDescription | value = Black and White
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.3.PortMapping.1.X_TELECOMITALIA_IT_HostMACAddress | value = 
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.3.Stats.EthernetBytesSent | value = 6026
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.3.Stats.EthernetBytesReceived | value = 5272
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.3.Stats.EthernetPacketsSent | value = 85
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.3.Stats.EthernetPacketsReceived | value = 80
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.3.Stats.EthernetErrorsSent | value = 0
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.3.Stats.EthernetErrorsReceived | value = 0
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.3.Stats.EthernetDiscardPacketsSent | value = 0
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.3.Stats.EthernetDiscardPacketsReceived | value = 0
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.3.Stats.EthernetUnicastPacketsSent | value = 0
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.3.Stats.EthernetUnicastPacketsReceived | value = 0
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.3.Stats.EthernetMulticastPacketsSent | value = 0
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.3.Stats.EthernetMulticastPacketsReceived | value = 0
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.3.Stats.EthernetBroadcastPacketsSent | value = 0
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.3.Stats.EthernetBroadcastPacketsReceived | value = 0
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.3.Stats.EthernetUnknownProtoPacketsReceived | value = 0
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.3.IGMPForwardingEnable | value = 0
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.3.X_TELECOMITALIA_IT_ReconnectTime | value = 0
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.3.X_TELECOMITALIA_IT_WINS | value = 
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.3.PPPLCPEcho | value = 120
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.3.PPPLCPEchoRetry | value = 4
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.3.X_TELECOMITALIA_IT_NATService | value = Generic
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.3.X_TELECOMITALIA_IT_NATExternalIPAddress | value = 
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.3.X_TELECOMITALIA_IT_NATStartIPAddress | value = 
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.3.X_TELECOMITALIA_IT_NATEndIPAddress | value = 
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.3.X_TELECOMITALIA_IT_NATInternalIPAddresses | value = 
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.3.X_TELECOMITALIA_IT_NATPersistanceTime | value = 300
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.3.X_TELECOMITALIA_IT_NATExcludedInternalIPAddresses | value = 
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.3.X_TELECOMITALIA_IT_IdleMngDisconnectTime | value = 0
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.3.CurrentMRUSize | value = 0
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.2.Enable | value = 1
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.2.ConnectionStatus | value = Disconnected
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.2.ConnectionType | value = PPPoE_Bridged
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.2.Name | value = Bridged
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.2.Uptime | value = 0
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.2.LastConnectionError | value = ERROR_UNKNOWN
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.2.NATEnabled | value = 0
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.2.Username | value = 
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.2.Password | value = 
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.2.ExternalIPAddress | value = 
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.2.MaxMRUSize | value = 1492
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.2.DNSOverrideAllowed | value = 1
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.2.DNSEnabled | value = 1
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.2.DNSServers | value = 
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.2.ConnectionTrigger | value = AlwaysOn
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.2.IdleDisconnectTime | value = 0
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.2.PortMappingNumberOfEntries | value = 0
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.2.Stats.EthernetBytesSent | value = 0
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.2.Stats.EthernetBytesReceived | value = 0
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.2.Stats.EthernetPacketsSent | value = 0
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.2.Stats.EthernetPacketsReceived | value = 0
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.2.Stats.EthernetErrorsSent | value = 0
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.2.Stats.EthernetErrorsReceived | value = 0
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.2.Stats.EthernetDiscardPacketsSent | value = 0
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.2.Stats.EthernetDiscardPacketsReceived | value = 0
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.2.Stats.EthernetUnicastPacketsSent | value = 0
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.2.Stats.EthernetUnicastPacketsReceived | value = 0
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.2.Stats.EthernetMulticastPacketsSent | value = 0
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.2.Stats.EthernetMulticastPacketsReceived | value = 0
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.2.Stats.EthernetBroadcastPacketsSent | value = 0
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.2.Stats.EthernetBroadcastPacketsReceived | value = 0
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.2.Stats.EthernetUnknownProtoPacketsReceived | value = 0
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.2.IGMPForwardingEnable | value = 0
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.2.X_TELECOMITALIA_IT_ReconnectTime | value = 0
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.2.X_TELECOMITALIA_IT_WINS | value = 
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.2.PPPLCPEcho | value = 120
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.2.PPPLCPEchoRetry | value = 4
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.2.X_TELECOMITALIA_IT_NATService | value = Data
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.2.X_TELECOMITALIA_IT_NATExternalIPAddress | value = 
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.2.X_TELECOMITALIA_IT_NATStartIPAddress | value = 
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.2.X_TELECOMITALIA_IT_NATEndIPAddress | value = 
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.2.X_TELECOMITALIA_IT_NATInternalIPAddresses | value = 
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.2.X_TELECOMITALIA_IT_NATPersistanceTime | value = 0
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.2.X_TELECOMITALIA_IT_NATExcludedInternalIPAddresses | value = 
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.2.X_TELECOMITALIA_IT_IdleMngDisconnectTime | value = 0
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.2.CurrentMRUSize | value = 0
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.Enable | value = 1
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.ConnectionStatus | value = Connected
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.ConnectionType | value = IP_Routed
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.Name | value = Telecom Italia
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.Uptime | value = 330
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.LastConnectionError | value = ERROR_NONE
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.NATEnabled | value = 1
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.Username | value = LK09149DP290019-00194B@23582.alicebiz.mgmt
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.Password | value = alicenewag
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.ExternalIPAddress | value = 10.64.2.207
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.MaxMRUSize | value = 1492
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.DNSOverrideAllowed | value = 1
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.DNSEnabled | value = 1
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.DNSServers | value = 151.99.0.100,151.99.125.1
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.ConnectionTrigger | value = AlwaysOn
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.IdleDisconnectTime | value = 0
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.PortMappingNumberOfEntries | value = 0
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.Stats.EthernetBytesSent | value = 10898
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.Stats.EthernetBytesReceived | value = 9176
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.Stats.EthernetPacketsSent | value = 84
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.Stats.EthernetPacketsReceived | value = 81
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.Stats.EthernetErrorsSent | value = 0
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.Stats.EthernetErrorsReceived | value = 0
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.Stats.EthernetDiscardPacketsSent | value = 0
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.Stats.EthernetDiscardPacketsReceived | value = 0
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.Stats.EthernetUnicastPacketsSent | value = 0
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.Stats.EthernetUnicastPacketsReceived | value = 0
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.Stats.EthernetMulticastPacketsSent | value = 0
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.Stats.EthernetMulticastPacketsReceived | value = 0
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.Stats.EthernetBroadcastPacketsSent | value = 0
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.Stats.EthernetBroadcastPacketsReceived | value = 0
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.Stats.EthernetUnknownProtoPacketsReceived | value = 0
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.IGMPForwardingEnable | value = 0
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.X_TELECOMITALIA_IT_ReconnectTime | value = 0
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.X_TELECOMITALIA_IT_WINS | value = 
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.PPPLCPEcho | value = 150
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.PPPLCPEchoRetry | value = 4
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.X_TELECOMITALIA_IT_NATService | value = Service_mgmt
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.X_TELECOMITALIA_IT_NATExternalIPAddress | value = 
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.X_TELECOMITALIA_IT_NATStartIPAddress | value = 
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.X_TELECOMITALIA_IT_NATEndIPAddress | value = 
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.X_TELECOMITALIA_IT_NATInternalIPAddresses | value = 
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.X_TELECOMITALIA_IT_NATPersistanceTime | value = 5400
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.X_TELECOMITALIA_IT_NATExcludedInternalIPAddresses | value = 
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.X_TELECOMITALIA_IT_IdleMngDisconnectTime | value = 0
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.CurrentMRUSize | value = 0
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANDSLLinkConfig.Enable | value = 1
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANDSLLinkConfig.LinkType | value = EoA
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANDSLLinkConfig.DestinationAddress | value = 8/35
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANDSLLinkConfig.ATMEncapsulation | value = LLC
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANDSLLinkConfig.ATMQoS | value = UBR
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANDSLLinkConfig.X_TELECOMITALIA_IT_LANIfMappingEnable | value = 0
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANDSLLinkConfig.ATMPeakCellRate | value = 5000
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANDSLLinkConfig.ATMMaximumBurstSize | value = 0
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnectionNumberOfEntries | value = 0
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnectionNumberOfEntries | value = 3
+--> parameter = InternetGatewayDevice.WANDevice.1.WANDSLInterfaceConfig.Enable | value = 1
+--> parameter = InternetGatewayDevice.WANDevice.1.WANDSLInterfaceConfig.Status | value = UP
+--> parameter = InternetGatewayDevice.WANDevice.1.WANDSLInterfaceConfig.ModulationType | value = ADSL_2plus
+--> parameter = InternetGatewayDevice.WANDevice.1.WANDSLInterfaceConfig.UpstreamCurrRate | value = 1001
+--> parameter = InternetGatewayDevice.WANDevice.1.WANDSLInterfaceConfig.DownstreamCurrRate | value = 23582
+--> parameter = InternetGatewayDevice.WANDevice.1.WANDSLInterfaceConfig.UpstreamMaxRate | value = 1080
+--> parameter = InternetGatewayDevice.WANDevice.1.WANDSLInterfaceConfig.DownstreamMaxRate | value = 23480
+--> parameter = InternetGatewayDevice.WANDevice.1.WANDSLInterfaceConfig.UpstreamNoiseMargin | value = 6
+--> parameter = InternetGatewayDevice.WANDevice.1.WANDSLInterfaceConfig.DownstreamNoiseMargin | value = 5
+--> parameter = InternetGatewayDevice.WANDevice.1.WANDSLInterfaceConfig.UpstreamAttenuation | value = 29
+--> parameter = InternetGatewayDevice.WANDevice.1.WANDSLInterfaceConfig.DownstreamAttenuation | value = 206
+--> parameter = InternetGatewayDevice.WANDevice.1.WANDSLInterfaceConfig.ShowtimeStart | value = 320
+--> parameter = InternetGatewayDevice.WANDevice.1.WANDSLInterfaceConfig.DataPath | value = Interleaved
+--> parameter = InternetGatewayDevice.WANDevice.1.WANDSLInterfaceConfig.LineNumber | value = 1
+--> parameter = InternetGatewayDevice.WANDevice.1.WANDSLInterfaceConfig.LineEncoding | value = QAM
+--> parameter = InternetGatewayDevice.WANDevice.1.WANDSLInterfaceConfig.Stats.Total.CRCErrors | value = 1
+--> parameter = InternetGatewayDevice.WANDevice.1.WANDSLInterfaceConfig.Stats.Total.SeverelyErroredSecs | value = 0
+--> parameter = InternetGatewayDevice.WANDevice.1.WANDSLInterfaceConfig.Stats.Total.FECErrors | value = 0
+--> parameter = InternetGatewayDevice.WANDevice.1.WANDSLInterfaceConfig.UpstreamPower | value = 0
+--> parameter = InternetGatewayDevice.WANDevice.1.WANDSLInterfaceConfig.DownstreamPower | value = 198
+--> parameter = InternetGatewayDevice.WANDevice.1.WANConnectionNumberOfEntries | value = 2
+--> parameter = InternetGatewayDevice.Layer2Bridging.BridgeNumberOfEntries | value = 2
+--> parameter = InternetGatewayDevice.Layer2Bridging.Bridge.2.BridgeKey | value = 2
+--> parameter = InternetGatewayDevice.Layer2Bridging.Bridge.2.BridgeEnable | value = 1
+--> parameter = InternetGatewayDevice.Layer2Bridging.Bridge.2.BridgeStatus | value = Enabled
+--> parameter = InternetGatewayDevice.Layer2Bridging.Bridge.2.BridgeName | value = IPTV Bridge
+--> parameter = InternetGatewayDevice.Layer2Bridging.Bridge.2.VLANID | value = 0
+--> parameter = InternetGatewayDevice.Layer2Bridging.Bridge.1.BridgeKey | value = 1
+--> parameter = InternetGatewayDevice.Layer2Bridging.Bridge.1.BridgeEnable | value = 1
+--> parameter = InternetGatewayDevice.Layer2Bridging.Bridge.1.BridgeStatus | value = Enabled
+--> parameter = InternetGatewayDevice.Layer2Bridging.Bridge.1.BridgeName | value = Default
+--> parameter = InternetGatewayDevice.Layer2Bridging.Bridge.1.VLANID | value = 0
+--> parameter = InternetGatewayDevice.Layer2Bridging.AvailableInterface.7.AvailableInterfaceKey | value = 7
+--> parameter = InternetGatewayDevice.Layer2Bridging.AvailableInterface.7.InterfaceType | value = LANInterface
+--> parameter = InternetGatewayDevice.Layer2Bridging.AvailableInterface.7.InterfaceReference | value = InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.4
+--> parameter = InternetGatewayDevice.Layer2Bridging.AvailableInterface.6.AvailableInterfaceKey | value = 6
+--> parameter = InternetGatewayDevice.Layer2Bridging.AvailableInterface.6.InterfaceType | value = LANInterface
+--> parameter = InternetGatewayDevice.Layer2Bridging.AvailableInterface.6.InterfaceReference | value = InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.3
+--> parameter = InternetGatewayDevice.Layer2Bridging.AvailableInterface.5.AvailableInterfaceKey | value = 5
+--> parameter = InternetGatewayDevice.Layer2Bridging.AvailableInterface.5.InterfaceType | value = LANInterface
+--> parameter = InternetGatewayDevice.Layer2Bridging.AvailableInterface.5.InterfaceReference | value = InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.2
+--> parameter = InternetGatewayDevice.Layer2Bridging.AvailableInterface.4.AvailableInterfaceKey | value = 4
+--> parameter = InternetGatewayDevice.Layer2Bridging.AvailableInterface.4.InterfaceType | value = LANInterface
+--> parameter = InternetGatewayDevice.Layer2Bridging.AvailableInterface.4.InterfaceReference | value = InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1
+--> parameter = InternetGatewayDevice.Layer2Bridging.AvailableInterface.3.AvailableInterfaceKey | value = 3
+--> parameter = InternetGatewayDevice.Layer2Bridging.AvailableInterface.3.InterfaceType | value = LANInterface
+--> parameter = InternetGatewayDevice.Layer2Bridging.AvailableInterface.3.InterfaceReference | value = InternetGatewayDevice.LANDevice.1.WLANConfiguration.1
+--> parameter = InternetGatewayDevice.Layer2Bridging.AvailableInterface.2.AvailableInterfaceKey | value = 2
+--> parameter = InternetGatewayDevice.Layer2Bridging.AvailableInterface.2.InterfaceType | value = WANInterface
+--> parameter = InternetGatewayDevice.Layer2Bridging.AvailableInterface.2.InterfaceReference | value = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.2
+--> parameter = InternetGatewayDevice.Layer2Bridging.AvailableInterface.1.AvailableInterfaceKey | value = 1
+--> parameter = InternetGatewayDevice.Layer2Bridging.AvailableInterface.1.InterfaceType | value = WANInterface
+--> parameter = InternetGatewayDevice.Layer2Bridging.AvailableInterface.1.InterfaceReference | value = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1
+--> parameter = InternetGatewayDevice.Layer2Bridging.MaxBridgeEntries | value = 5
+--> parameter = InternetGatewayDevice.Layer2Bridging.MaxFilterEntries | value = 30
+--> parameter = InternetGatewayDevice.Layer2Bridging.MaxMarkingEntries | value = 30
+--> parameter = InternetGatewayDevice.Layer2Bridging.FilterNumberOfEntries | value = 7
+--> parameter = InternetGatewayDevice.Layer2Bridging.MarkingNumberOfEntries | value = 0
+--> parameter = InternetGatewayDevice.Layer2Bridging.AvailableInterfaceNumberOfEntries | value = 7
+--> parameter = InternetGatewayDevice.Layer2Bridging.Filter.3.FilterKey | value = 3
+--> parameter = InternetGatewayDevice.Layer2Bridging.Filter.3.FilterEnable | value = 1
+--> parameter = InternetGatewayDevice.Layer2Bridging.Filter.3.FilterStatus | value = Enabled
+--> parameter = InternetGatewayDevice.Layer2Bridging.Filter.3.FilterBridgeReference | value = 2
+--> parameter = InternetGatewayDevice.Layer2Bridging.Filter.3.ExclusivityOrder | value = 1
+--> parameter = InternetGatewayDevice.Layer2Bridging.Filter.3.FilterInterface | value = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.2
+--> parameter = InternetGatewayDevice.Layer2Bridging.Filter.3.VLANIDFilter | value = -1
+--> parameter = InternetGatewayDevice.Layer2Bridging.Filter.3.EthertypeFilterList | value = 
+--> parameter = InternetGatewayDevice.Layer2Bridging.Filter.3.EthertypeFilterExclude | value = 1
+--> parameter = InternetGatewayDevice.Layer2Bridging.Filter.3.SourceMACAddressFilterList | value = 
+--> parameter = InternetGatewayDevice.Layer2Bridging.Filter.3.SourceMACAddressFilterExclude | value = 1
+--> parameter = InternetGatewayDevice.Layer2Bridging.Filter.3.DestMACAddressFilterList | value = 
+--> parameter = InternetGatewayDevice.Layer2Bridging.Filter.3.DestMACAddressFilterExclude | value = 1
+--> parameter = InternetGatewayDevice.Layer2Bridging.Filter.7.FilterKey | value = 7
+--> parameter = InternetGatewayDevice.Layer2Bridging.Filter.7.FilterEnable | value = 1
+--> parameter = InternetGatewayDevice.Layer2Bridging.Filter.7.FilterStatus | value = Enabled
+--> parameter = InternetGatewayDevice.Layer2Bridging.Filter.7.FilterBridgeReference | value = 1
+--> parameter = InternetGatewayDevice.Layer2Bridging.Filter.7.ExclusivityOrder | value = 1
+--> parameter = InternetGatewayDevice.Layer2Bridging.Filter.7.FilterInterface | value = InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.4
+--> parameter = InternetGatewayDevice.Layer2Bridging.Filter.7.VLANIDFilter | value = 1407
+--> parameter = InternetGatewayDevice.Layer2Bridging.Filter.7.EthertypeFilterList | value = 
+--> parameter = InternetGatewayDevice.Layer2Bridging.Filter.7.EthertypeFilterExclude | value = 1
+--> parameter = InternetGatewayDevice.Layer2Bridging.Filter.7.SourceMACAddressFilterList | value = 
+--> parameter = InternetGatewayDevice.Layer2Bridging.Filter.7.SourceMACAddressFilterExclude | value = 1
+--> parameter = InternetGatewayDevice.Layer2Bridging.Filter.7.DestMACAddressFilterList | value = 
+--> parameter = InternetGatewayDevice.Layer2Bridging.Filter.7.DestMACAddressFilterExclude | value = 1
+--> parameter = InternetGatewayDevice.Layer2Bridging.Filter.6.FilterKey | value = 6
+--> parameter = InternetGatewayDevice.Layer2Bridging.Filter.6.FilterEnable | value = 1
+--> parameter = InternetGatewayDevice.Layer2Bridging.Filter.6.FilterStatus | value = Enabled
+--> parameter = InternetGatewayDevice.Layer2Bridging.Filter.6.FilterBridgeReference | value = 1
+--> parameter = InternetGatewayDevice.Layer2Bridging.Filter.6.ExclusivityOrder | value = 1
+--> parameter = InternetGatewayDevice.Layer2Bridging.Filter.6.FilterInterface | value = InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.3
+--> parameter = InternetGatewayDevice.Layer2Bridging.Filter.6.VLANIDFilter | value = 1407
+--> parameter = InternetGatewayDevice.Layer2Bridging.Filter.6.EthertypeFilterList | value = 
+--> parameter = InternetGatewayDevice.Layer2Bridging.Filter.6.EthertypeFilterExclude | value = 1
+--> parameter = InternetGatewayDevice.Layer2Bridging.Filter.6.SourceMACAddressFilterList | value = 
+--> parameter = InternetGatewayDevice.Layer2Bridging.Filter.6.SourceMACAddressFilterExclude | value = 1
+--> parameter = InternetGatewayDevice.Layer2Bridging.Filter.6.DestMACAddressFilterList | value = 
+--> parameter = InternetGatewayDevice.Layer2Bridging.Filter.6.DestMACAddressFilterExclude | value = 1
+--> parameter = InternetGatewayDevice.Layer2Bridging.Filter.5.FilterKey | value = 5
+--> parameter = InternetGatewayDevice.Layer2Bridging.Filter.5.FilterEnable | value = 1
+--> parameter = InternetGatewayDevice.Layer2Bridging.Filter.5.FilterStatus | value = Enabled
+--> parameter = InternetGatewayDevice.Layer2Bridging.Filter.5.FilterBridgeReference | value = 1
+--> parameter = InternetGatewayDevice.Layer2Bridging.Filter.5.ExclusivityOrder | value = 1
+--> parameter = InternetGatewayDevice.Layer2Bridging.Filter.5.FilterInterface | value = InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.2
+--> parameter = InternetGatewayDevice.Layer2Bridging.Filter.5.VLANIDFilter | value = 1407
+--> parameter = InternetGatewayDevice.Layer2Bridging.Filter.5.EthertypeFilterList | value = 
+--> parameter = InternetGatewayDevice.Layer2Bridging.Filter.5.EthertypeFilterExclude | value = 1
+--> parameter = InternetGatewayDevice.Layer2Bridging.Filter.5.SourceMACAddressFilterList | value = 
+--> parameter = InternetGatewayDevice.Layer2Bridging.Filter.5.SourceMACAddressFilterExclude | value = 1
+--> parameter = InternetGatewayDevice.Layer2Bridging.Filter.5.DestMACAddressFilterList | value = 
+--> parameter = InternetGatewayDevice.Layer2Bridging.Filter.5.DestMACAddressFilterExclude | value = 1
+--> parameter = InternetGatewayDevice.Layer2Bridging.Filter.4.FilterKey | value = 4
+--> parameter = InternetGatewayDevice.Layer2Bridging.Filter.4.FilterEnable | value = 1
+--> parameter = InternetGatewayDevice.Layer2Bridging.Filter.4.FilterStatus | value = Enabled
+--> parameter = InternetGatewayDevice.Layer2Bridging.Filter.4.FilterBridgeReference | value = 1
+--> parameter = InternetGatewayDevice.Layer2Bridging.Filter.4.ExclusivityOrder | value = 1
+--> parameter = InternetGatewayDevice.Layer2Bridging.Filter.4.FilterInterface | value = InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1
+--> parameter = InternetGatewayDevice.Layer2Bridging.Filter.4.VLANIDFilter | value = 1407
+--> parameter = InternetGatewayDevice.Layer2Bridging.Filter.4.EthertypeFilterList | value = 
+--> parameter = InternetGatewayDevice.Layer2Bridging.Filter.4.EthertypeFilterExclude | value = 1
+--> parameter = InternetGatewayDevice.Layer2Bridging.Filter.4.SourceMACAddressFilterList | value = 
+--> parameter = InternetGatewayDevice.Layer2Bridging.Filter.4.SourceMACAddressFilterExclude | value = 1
+--> parameter = InternetGatewayDevice.Layer2Bridging.Filter.4.DestMACAddressFilterList | value = 
+--> parameter = InternetGatewayDevice.Layer2Bridging.Filter.4.DestMACAddressFilterExclude | value = 1
+--> parameter = InternetGatewayDevice.Layer2Bridging.Filter.2.FilterKey | value = 2
+--> parameter = InternetGatewayDevice.Layer2Bridging.Filter.2.FilterEnable | value = 1
+--> parameter = InternetGatewayDevice.Layer2Bridging.Filter.2.FilterStatus | value = Enabled
+--> parameter = InternetGatewayDevice.Layer2Bridging.Filter.2.FilterBridgeReference | value = 1
+--> parameter = InternetGatewayDevice.Layer2Bridging.Filter.2.ExclusivityOrder | value = 1
+--> parameter = InternetGatewayDevice.Layer2Bridging.Filter.2.FilterInterface | value = InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1
+--> parameter = InternetGatewayDevice.Layer2Bridging.Filter.2.VLANIDFilter | value = -1
+--> parameter = InternetGatewayDevice.Layer2Bridging.Filter.2.EthertypeFilterList | value = 
+--> parameter = InternetGatewayDevice.Layer2Bridging.Filter.2.EthertypeFilterExclude | value = 1
+--> parameter = InternetGatewayDevice.Layer2Bridging.Filter.2.SourceMACAddressFilterList | value = 
+--> parameter = InternetGatewayDevice.Layer2Bridging.Filter.2.SourceMACAddressFilterExclude | value = 1
+--> parameter = InternetGatewayDevice.Layer2Bridging.Filter.2.DestMACAddressFilterList | value = 
+--> parameter = InternetGatewayDevice.Layer2Bridging.Filter.2.DestMACAddressFilterExclude | value = 1
+--> parameter = InternetGatewayDevice.Layer2Bridging.Filter.1.FilterKey | value = 1
+--> parameter = InternetGatewayDevice.Layer2Bridging.Filter.1.FilterEnable | value = 1
+--> parameter = InternetGatewayDevice.Layer2Bridging.Filter.1.FilterStatus | value = Enabled
+--> parameter = InternetGatewayDevice.Layer2Bridging.Filter.1.FilterBridgeReference | value = 1
+--> parameter = InternetGatewayDevice.Layer2Bridging.Filter.1.ExclusivityOrder | value = 0
+--> parameter = InternetGatewayDevice.Layer2Bridging.Filter.1.FilterInterface | value = LANInterfaces
+--> parameter = InternetGatewayDevice.Layer2Bridging.Filter.1.VLANIDFilter | value = -1
+--> parameter = InternetGatewayDevice.Layer2Bridging.Filter.1.EthertypeFilterList | value = 
+--> parameter = InternetGatewayDevice.Layer2Bridging.Filter.1.EthertypeFilterExclude | value = 1
+--> parameter = InternetGatewayDevice.Layer2Bridging.Filter.1.SourceMACAddressFilterList | value = 
+--> parameter = InternetGatewayDevice.Layer2Bridging.Filter.1.SourceMACAddressFilterExclude | value = 1
+--> parameter = InternetGatewayDevice.Layer2Bridging.Filter.1.DestMACAddressFilterList | value = 
+--> parameter = InternetGatewayDevice.Layer2Bridging.Filter.1.DestMACAddressFilterExclude | value = 1
+--> parameter = InternetGatewayDevice.UserInterface.PasswordRequired | value = 1
+--> parameter = InternetGatewayDevice.UserInterface.PasswordUserSelectable | value = 1
+--> parameter = InternetGatewayDevice.UserInterface.X_TELECOMITALIA_IT_ExtensionsName | value = BaseEthDECT,Rip_Wi-Fi,FAXPOS_Eth
+--> parameter = InternetGatewayDevice.UserInterface.X_TELECOMITALIA_IT_WebPage.LANOption | value = biz-rt-napt-ena
+--> parameter = InternetGatewayDevice.UserInterface.X_TELECOMITALIA_IT_WebPage.ConnectionMode | value = Bridged+Routed
+--> parameter = InternetGatewayDevice.UserInterface.X_TELECOMITALIA_IT_WebPage.Profile | value = Alice Business Flat
+--> parameter = InternetGatewayDevice.UserInterface.X_TELECOMITALIA_IT_WebPage.PublicPrimaryDNS | value = 151.99.125.1
+--> parameter = InternetGatewayDevice.UserInterface.X_TELECOMITALIA_IT_WebPage.PublicSecondaryDNS | value = 151.99.0.100
+--> parameter = InternetGatewayDevice.UserInterface.X_TELECOMITALIA_IT_WebPage.AutodiscoverySTB | value = 0
+--> parameter = InternetGatewayDevice.UserInterface.X_TELECOMITALIA_IT_ServiceLed.Static | value = green_fixed
+--> parameter = InternetGatewayDevice.UserInterface.RemoteAccess.Enable | value = 0
+--> parameter = InternetGatewayDevice.UserInterface.RemoteAccess.Username | value = 
+--> parameter = InternetGatewayDevice.UserInterface.RemoteAccess.Password | value = 
+--> parameter = InternetGatewayDevice.UserInterface.RemoteAccess.Port | value = 0
+--> parameter = InternetGatewayDevice.UserInterface.RemoteAccess.Protocol | value = 
+--> parameter = InternetGatewayDevice.LANConfigSecurity.ConfigPassword | value = admin
+--> parameter = InternetGatewayDevice.Firewall.Config | value = Low
+# 
